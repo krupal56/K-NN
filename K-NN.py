@@ -4,6 +4,7 @@ from sklearn.datasets import load_iris
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
 from sklearn import metrics
+
 iris = load_iris()
 x = iris.data
 y = iris.target
